@@ -35,7 +35,7 @@ int main() {
 	}
 
 	if (a == btoa && b == btoa) {
-		a--;
+		a = max(a-1,0);
 	}
 	cout << ab + min(a, b) << endl;
 
