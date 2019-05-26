@@ -23,12 +23,12 @@ int main() {
 		cin >> p[i];
 	}
 	for (i = 0; i < pow(2,n); i++) {
-		on = 0;
 		count = 0;
 		string b = bitset<10>(i).to_string();
 		for (j = 0; j < m; j++) {
-			for (int k = 0; k < s[j].size(); k++) {
-				if (b[s[j][k]] == '1') {
+			on = 0;
+			for (int h = 0; h < (int)s[j].size(); h++) {
+				if (b[(10-s[j][h])] == '1') {
 					on++;
 				}
 			}
