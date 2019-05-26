@@ -1,2 +1,4 @@
 ﻿  D.cpp
+C:\Users\InoueSora\Documents\GitHub\AtCoder\ABC127\D\D.cpp(32): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\InoueSora\Documents\GitHub\AtCoder\ABC127\D\D.cpp(33): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
   D.vcxproj -> C:\Users\InoueSora\Documents\GitHub\AtCoder\ABC127\Debug\D.exe
